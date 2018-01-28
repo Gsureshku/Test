@@ -25,3 +25,8 @@ p{
 p.error {
     color:red;
 }
+
+a:link {
+    color:yellow;
+    background-color: transparent;
+}
