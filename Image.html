@@ -8,14 +8,65 @@
         <meta charset="utf-8">
         <style>
             img {
-                width: 100%
+                width: 50%
+            }
+            p{
+                background-image: url(Cloud3.jpeg)
             }
         </style>
     </head>
     
     <body>
         <h1>Image html..</h1>
-        <img src="sun.jpeg" alt="SUN" style="width: 128px; height: 128px;">
-        <img src="sun.jpeg" alt="SUN" width="128" height="128">
+        <img src="sun.jpeg" alt="SUN" style="width:inherit; height: inherit;"><br>
+        <img src="sun.jpeg" alt="SUN" style="width: 128px; height: 128px;"><br>
+        <img src="sun.jpeg" alt="SUN" width="128" height="128"><br>
+        
+        <hr>
+        
+        <p>
+            <img src="Simley.jpeg" alt="Smiley" style="float: right; width: 25px; height: 25px;">
+            The image will float to the right of the text.
+        </p>
+        
+        <hr>
+        
+        <p>
+            <img src="Simley.jpeg" alt="Smiley" style="float: left; width: 25px; height: 25px;">
+            The image will float to the left of the text.
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque tellus nec leo iaculis, eu efficitur mauris pulvinar. Aliquam sed sagittis dolor. Praesent at turpis diam. Pellentesque dictum varius sapien vel dapibus. Morbi purus tortor, rutrum vitae ultrices sed, pellentesque ac arcu. Sed convallis lacinia dapibus. Sed eget placerat leo. Vivamus a risus est. Curabitur at ex tristique, tristique tortor porttitor, vehicula ante. Phasellus finibus ultricies cursus. Vivamus sit amet placerat felis, nec hendrerit dui. In molestie diam vel porttitor venenatis. Vestibulum malesuada non dui sit amet varius.
+
+            Etiam ut nibh neque. Vestibulum euismod mattis varius. Mauris commodo turpis a tellus vestibulum aliquet. Aliquam porta blandit vestibulum. In risus lacus, posuere sit amet nunc at, cursus convallis nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin venenatis, sem vel efficitur lacinia, felis nisl placerat felis, ac pellentesque purus neque eu enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nec aliquam felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer tellus lacus, consequat eget tincidunt et, ullamcorper eget tellus. Maecenas fringilla turpis justo, eget luctus magna ultrices vel. Aenean ut erat nec dui mattis viverra. Aenean luctus tristique sem nec ornare.
+
+            Donec ac sapien justo. Donec quis blandit justo. Sed blandit magna purus, sed ultrices tortor varius non. Morbi semper odio magna, eget bibendum urna varius nec. Vestibulum cursus dui non aliquam aliquam. Morbi mattis fringilla sem, sed gravida tellus lacinia scelerisque. Proin ut aliquet augue, non finibus risus. Nullam tincidunt mauris in lacus lacinia ultricies. Fusce fermentum purus eget eros vehicula, quis porttitor dui suscipit. Maecenas purus sapien, dictum id vehicula sit amet, hendrerit ac mi. Suspendisse potenti.
+
+            Aliquam lacinia cursus leo vel suscipit. Integer nec mauris sed leo efficitur cursus. Vestibulum vulputate mattis augue vel consequat. Aliquam eros lectus, dignissim quis suscipit ac, vehicula a neque. Aenean sagittis nec eros vitae tempus. Etiam dignissim magna eu dolor pellentesque venenatis. Nam mattis nisl eu felis fringilla suscipit. Mauris rhoncus mauris lacus, vitae rhoncus leo egestas non. Etiam egestas purus mauris, eget condimentum justo laoreet sit amet. Aliquam et pellentesque sem, vel feugiat nisi. Nullam interdum ex sed porttitor mattis. Nam ullamcorper blandit sem, vitae scelerisque metus eleifend sed.
+        </p>
+        
+        <hr>
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+        <map name="workmap">
+          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+          <area shape="rect" coords="290,172,333,250" alt="Phone" href="Phone.html">
+          <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.html">
+        </map>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        
+        <picture>
+            <source media="(min-width: 1000px)" srcset="workplace.jpg">
+            <source media="(min-width: 550px)" srcset="butterfly.jpeg">
+            <img src="burger.jpeg" alt="Burger" style="width: auto">
+        </picture>
+   
+   
+   
     </body>
 </html>
