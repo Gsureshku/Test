@@ -7,16 +7,34 @@
         <meta charset="utf-8">
         <style>
         
-            table,th, td {
-                border: 1px solid blue;
-                border-collapse: collapse;
-            }    
+            table#t01 {
+                border: 2px solid blue;
+                width: 100%;
+                border-collapse:collapse;
+            }
+            th{
+                border: 2px solid blue;
+                padding : 25px;
+            }
+               
+            td {
+                border: 2px solid blue;
+                padding : 25px;
+                text-align: left;
+                font-style: italic
+                
+            } 
+            
+            tr{
+                background-color: gold;
+                color:red;
+            }
         </style>
         </head>
         
         <body>
             <h1> Table html</h1>
-            <table>
+            <table id="t01">
                 <tr>
                     <th>Firstname</th>
                     <th>Lastname</th>
