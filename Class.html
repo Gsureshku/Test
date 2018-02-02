@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+
+<html>
+    
+    <head lang="en">
+        <title>class html</title>
+        <meta charset="utf-8">
+        
+        <style>
+            .city{
+                background-color: bisque;
+                color:#e51313;
+                padding: :10px;
+            }
+            
+            .main{
+                font-family: cursive;
+            }
+        </style>
+        
+        <script>
+        function myFunction(){
+            var x = document.getElementsByClassName("city");
+            for (var i=0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+        </script>
+    </head>
+    
+    <html>
+        <h1 class="city">London</h1>
+        <p>London is the capital of England!</p>
+        <h1 class="city main">Paris</h1>
+        <p class="city">Paris is capital of France!</p>
+        
+        <p>Click the button, and a Javascript hides all elements with the class name "city":</p>
+        <button onclick="myFunction()">Hide Elements</button>
+        
+    </html>
+</html>
